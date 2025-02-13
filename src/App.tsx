@@ -59,7 +59,7 @@ function App() {
               <span className="text-gray-700 text-sm">
                 Designed by{" "}
                 <a
-                  href="https://fidanshikhaliyeva.netlify.app/"
+                  href="https://www.linkedin.com/in/fidanshikhaliyeva/"
                   target="_blank"
                 >
                   Fidan Shikhaliyeva

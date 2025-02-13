@@ -5,7 +5,6 @@ const About = () => {
       id="about"
     >
       <div className="flex flex-col md:flex-row justify-between items-center w-full space-y-8 md:space-y-0">
-        {/* Left Side: Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-orange-500 text-xl md:text-2xl font-semibold mb-6 md:pl-8">
             About me

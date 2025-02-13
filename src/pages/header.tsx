@@ -13,7 +13,6 @@ const Header = () => {
         DG
       </a>
 
-      {/* Mobile Menu Button */}
       <button
         className="md:hidden text-orange-500 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
@@ -21,7 +20,6 @@ const Header = () => {
         {isOpen ? <X size={30} /> : <Menu size={30} />}
       </button>
 
-      {/* Navigation Links */}
       <nav
         className={`absolute md:static top-16 left-0 w-full md:w-auto bg-[#fefaf5] md:bg-transparent p-5 md:p-0 shadow-md md:shadow-none transition-all duration-300 ${
           isOpen ? "block" : "hidden md:flex"
@@ -42,7 +40,6 @@ const Header = () => {
         </ul>
       </nav>
 
-      {/* Language Button */}
       <button className="hidden md:block">
         <img
           className="w-10 h-10 rounded-full"

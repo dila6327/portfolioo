@@ -1,5 +1,5 @@
 import React from "react";
-
+import portfol from "../arrays/Portfol";
 const Portfolio = () => {
   const [activeButton, setActiveButton] = React.useState("see-all");
 
@@ -7,45 +7,6 @@ const Portfolio = () => {
     { id: "see-all", label: "See all" },
     { id: "games", label: "Games" },
     { id: "apps", label: "Apps" },
-  ];
-
-  const portfol = [
-    {
-      img: "/calc.png",
-      category: "app",
-      id: 1,
-      link: "https://curious-liger-8b39b2.netlify.app/",
-    },
-    {
-      img: "/tic.png",
-      category: "game",
-      id: 2,
-      link: "https://neon-boba-bda198.netlify.app/",
-    },
-    {
-      img: "/quu.png",
-      category: "game",
-      id: 3,
-      link: "https://delicate-melomakarona-1ebc7b.netlify.app/",
-    },
-    {
-      img: "/weat.png",
-      category: "app",
-      id: 4,
-      link: "https://vocal-sfogliatella-9d82c4.netlify.app/",
-    },
-    {
-      img: "/todo.png",
-      category: "app",
-      id: 5,
-      link: "https://hilarious-sorbet-8f5af9.netlify.app/",
-    },
-    {
-      img: "/formm.png",
-      category: "app",
-      id: 6,
-      link: "https://sparkling-lokum-a483b9.netlify.app/",
-    },
   ];
 
   const filteredPortfolio = portfol.filter((elem) => {
@@ -64,7 +25,7 @@ const Portfolio = () => {
         <h2 className="text-orange-500 text-3xl mb-8 pl-8 font-bold text-center">
           My Portfolio
         </h2>
-        <div className="flex gap-2 self-center">
+        <div className="flex flex-wrap gap-2 justify-center">
           {buttons.map((button) => (
             <button
               key={button.id}

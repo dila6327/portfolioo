@@ -6,7 +6,6 @@ const Home = () => {
       id="home"
     >
       <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between w-full pt-4 pb-5 space-y-6 md:space-y-0">
-        {/* Left Side: Text Content */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left w-full md:w-2/3">
           <h3 className="text-black mb-4 text-lg md:text-xl">
             I am Dilruba Guliyeva
@@ -31,7 +30,6 @@ const Home = () => {
           </button>
         </div>
 
-        {/* Right Side: Image */}
         <div className="rounded-full h-48 md:h-64 w-48 md:w-64 border-solid p-2 md:p-3 border-amber-200 border bg-white">
           <img
             src="https://img.freepik.com/free-photo/cute-cartoon-girl-with-flower-illustration_1409-6088.jpg?t=st=1739114856~exp=1739118456~hmac=fa71f9795052b5df3a5da6750e2d9fbea1cdfc59a66dc38b6a4d9c6b3a32d9b8&w=1060"
